@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Test",
+      "type": "shell",
+      "command": "/Users/willpayne/bin/miniconda3/envs/ML/bin/python /Users/willpayne/bin/ML/test.py -v",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "Run",
+      "type": "shell",
+      "command": "/Users/willpayne/bin/miniconda3/envs/ML/bin/python /Users/willpayne/bin/ML/main.py",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    }
+  ]
+}
